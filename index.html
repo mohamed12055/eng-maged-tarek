@@ -87,20 +87,133 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "ماجد طارق موسى",
-  "alternateName": "م. ماجد طارق موسى",
-  "jobTitle": "مهندس مساحة",
-  "url": "https://eng-maged-tarek.vercel.app/",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "العمار الكبرى",
-    "addressRegion": "القليوبية",
-    "addressCountry": "EG"
-  },
-  "sameAs": [
-    "https://www.facebook.com/share/19cBAknCEt/",
-    "https://www.tiktok.com/@magedtarek372"
+  "@graph": [
+
+    {
+      "@type": "Person",
+      "@id": "https://eng-maged-tarek.vercel.app/#person",
+      "name": "ماجد طارق موسى",
+      "alternateName": [
+        "م. ماجد طارق موسى",
+        "م. ماجد طارق موسي",
+        "مهندس مساحة ماجد طارق"
+      ],
+      "jobTitle": "مهندس مساحة",
+      "url": "https://eng-maged-tarek.vercel.app/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "العمار الكبرى",
+        "addressRegion": "القليوبية",
+        "addressCountry": "EG"
+      },
+      "sameAs": [
+        "https://www.facebook.com/share/19cBAknCEt/",
+        "https://www.tiktok.com/@magedtarek372"
+      ]
+    },
+
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://eng-maged-tarek.vercel.app/#business",
+      "name": "م. ماجد طارق موسى - مهندس مساحة",
+      "url": "https://eng-maged-tarek.vercel.app/",
+      "description": "خدمات هندسية ومساحية تشمل أعمال الرفع المساحي، تقسيم الأراضي، أعمال المساحة، الاستشارات الهندسية، التصميمات المعمارية وتدريب الأوتوكاد.",
+      "telephone": [
+        "+201061915622",
+        "+201211867823",
+        "+201214596820",
+        "+201214570122"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "العمار الكبرى",
+        "addressLocality": "طوخ",
+        "addressRegion": "القليوبية",
+        "addressCountry": "EG"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "القليوبية"
+      },
+      "founder": {
+        "@id": "https://eng-maged-tarek.vercel.app/#person"
+      },
+      "sameAs": [
+        "https://www.facebook.com/share/19cBAknCEt/",
+        "https://www.tiktok.com/@magedtarek372"
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://eng-maged-tarek.vercel.app/#surveying",
+      "name": "أعمال الرفع المساحي",
+      "description": "خدمات الرفع المساحي وأعمال المساحة للأراضي والمواقع.",
+      "provider": {
+        "@id": "https://eng-maged-tarek.vercel.app/#business"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "القليوبية"
+      }
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://eng-maged-tarek.vercel.app/#land-division",
+      "name": "تقسيم الأراضي",
+      "description": "خدمات تقسيم الأراضي وإعداد الأعمال المساحية المرتبطة بها.",
+      "provider": {
+        "@id": "https://eng-maged-tarek.vercel.app/#business"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "القليوبية"
+      }
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://eng-maged-tarek.vercel.app/#engineering-consulting",
+      "name": "الاستشارات الهندسية",
+      "description": "خدمات الاستشارات الهندسية المتعلقة بأعمال المساحة والأراضي.",
+      "provider": {
+        "@id": "https://eng-maged-tarek.vercel.app/#business"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "القليوبية"
+      }
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://eng-maged-tarek.vercel.app/#architectural-design",
+      "name": "التصميمات المعمارية",
+      "description": "خدمات التصميمات المعمارية.",
+      "provider": {
+        "@id": "https://eng-maged-tarek.vercel.app/#business"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "القليوبية"
+      }
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://eng-maged-tarek.vercel.app/#autocad-training",
+      "name": "تدريب الأوتوكاد",
+      "description": "تدريب وتعليم برنامج الأوتوكاد.",
+      "provider": {
+        "@id": "https://eng-maged-tarek.vercel.app/#person"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "القليوبية"
+      }
+    }
+
   ]
 }
 </script>
