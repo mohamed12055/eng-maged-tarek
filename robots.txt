@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eng-maged-tarek.vercel.app/sitemap.xml
